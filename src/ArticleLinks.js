@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './ArticleLinks.css'
 
 class ArticleLinks extends Component {
     constructor() {

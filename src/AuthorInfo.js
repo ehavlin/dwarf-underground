@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './AuthorInfo.css'
 
 class AuthorInfo extends Component {
     render() {

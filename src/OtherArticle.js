@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import CreateOtherArticle from './CreateOtherArticle'
+import './OtherArticle.css'
 
 class OtherArticle extends Component {
 

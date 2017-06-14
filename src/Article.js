@@ -3,6 +3,7 @@ import ArticleTitle from './ArticleTitle'
 import ArticleBody from './ArticleBody'
 import ArticleLinks from './ArticleLinks'
 import AuthorInfo from './AuthorInfo'
+import './Article.css'
 
 class Article extends Component {
     render() {
