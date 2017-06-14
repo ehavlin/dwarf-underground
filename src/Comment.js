@@ -23,7 +23,7 @@ class Comment extends Component {
 
     render() {
         return (
-            <div className="comments hidden">
+            <div className="comments">
                 <form onSubmit={this.handleSubmit.bind(this)}>
                     <input type="text" ref={input => this.commentInput = input} />
                     <button className="expanded success button" type="submit">Submit a comment</button>
