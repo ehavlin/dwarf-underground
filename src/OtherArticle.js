@@ -23,13 +23,11 @@ class OtherArticle extends Component {
                 'hobbit',
             ],
         }
-
     }
 
     renderOtherArticle(article, i) {
         return <CreateOtherArticle key={i} index={i} article={article} />
     }
-
 
     render() {
         return (
